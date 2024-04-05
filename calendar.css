@@ -1,0 +1,53 @@
+
+/* Estilo para dias marcados */
+.marked-day {
+    background-color: #fce4ec; /* Cor de fundo rosa claro */
+    color: #a516b3; /* Cor do texto escura */
+    border-radius: 50%; /* Borda circular */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para dias selecionados */
+.selected-day {
+    background-color: #ffb6c1; /* Cor de fundo rosa claro */
+    color: #fff; /* Cor do texto branca */
+    border-radius: 50%; /* Borda circular */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para dias de fim de semana (sábado e domingo) */
+.weekend-day {
+    color: #ff69b4; /* Cor do texto rosa */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo para o cabeçalho do calendário */
+#calendar th {
+    background-color: #ffb6c1; /* Cor de fundo rosa claro */
+    color: #fff; /* Cor do texto branca */
+    padding: 15px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
+    border-top-left-radius: 10px; /* Borda superior esquerda arredondada */
+    border-top-right-radius: 10px; /* Borda superior direita arredondada */
+}
+
+/* Estilo para a legenda de veículos */
+.legend {
+    margin-top: 20px; /* Margem superior */
+    text-align: center; /* Centralizar texto */
+}
+
+.legend-item {
+    margin-right: 20px; /* Margem direita */
+    display: inline-block; /* Exibir como inline-block */
+}
+
+.legend-color {
+    display: inline-block; /* Exibir como inline-block */
+    width: 20px; /* Largura */
+    height: 20px; /* Altura */
+    border-radius: 50%; /* Borda circular */
+    margin-right: 5px; /* Margem direita */
+    border: 1px solid #ccc; /* Borda sólida com cor cinza */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
