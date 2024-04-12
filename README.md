@@ -1,7 +1,7 @@
 # calend-rio
 
 **📅 Calendário Interativo**
-Bem-vindo ao Calendário Interativo! Este é um projeto incrível que vai revolucionar a maneira como você organiza seu tempo. Combinando funcionalidade avançada e design elegante, este calendário é a ferramenta perfeita para transformar suas datas de auqe sera marcada seu veiculo na data aberta.
+Bem-vindo ao Calendário Interativo! Este é um projeto incrível que vai revolucionar a maneira como você organiza seu tempo. Combinando funcionalidade avançada e design elegante, este calendário é a ferramenta perfeita para transformar suas datas sera marcada seu veiculo na data aberta.
 
 **💡 Por que usar o Calendário Interativo?**
 Organização Visual: marca o dia em que um determinado veículo fará um frete, essa marcação permite verificar visualmente os dias em que haverão fretes agendados, e conforme o previsto enviara um alert, caso ao contrio sua data sera marcada.
