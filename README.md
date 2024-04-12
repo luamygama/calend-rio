@@ -49,6 +49,5 @@ Quer ver o Calendário Interativo em ação? Confira uma demonstração ao vivo 
 **📄 Esse projeto foi produzido por**
 luamy alves gama 
 
-**📂 Link do Repositório:**
 
 
