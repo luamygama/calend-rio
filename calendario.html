@@ -3,20 +3,21 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Calendário</title>
+    <title>calendario</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- Estilo CSS para o calendário -->
     <link rel='stylesheet' type='text/css' media='screen' href='calendar.css'>
-    <!-- Script JavaScript para manipulação do calendário -->
     <script src='calendar.js'></script>
 </head>
 <body>
-    <!-- Tabela para exibir o calendário -->
+    <h2>ABRIL-2024</h2>
     <table id="calendar">
-        <tbody>
-            <!-- Cabeçalho da semana -->
+        <!--tabela-->
+        <body>
+            <!--corpo da tabela-->
             <tr>
+                <!--(Primeira linha)cria uma linha-->
                 <th class="domingo">Dom</th>
+                <!--coluna-->
                 <th>Seg</th>
                 <th>Ter</th>
                 <th>Qua</th>
@@ -24,9 +25,9 @@
                 <th>Sex</th>
                 <th>Sab</th>
             </tr>
-            <!-- Linhas do calendário -->
             <tr>
-                <td class="domingo"></td>
+                <!--Segunda linha-->
+                <td></td>
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
@@ -35,6 +36,7 @@
                 <td>6</td>
             </tr>
             <tr>
+                <!--Terceira linha-->
                 <td class="domingo">7</td>
                 <td>8</td>
                 <td>9</td>
@@ -44,6 +46,7 @@
                 <td>13</td>
             </tr>
             <tr>
+                <!--Quarta linha-->
                 <td class="domingo">14</td>
                 <td>15</td>
                 <td>16</td>
@@ -53,6 +56,7 @@
                 <td>20</td>
             </tr>
             <tr>
+                <!--Quinta linha-->
                 <td class="domingo">21</td>
                 <td>22</td>
                 <td>23</td>
@@ -62,58 +66,40 @@
                 <td>27</td>
             </tr>
             <tr>
+                <!--Sexta linha-->
                 <td class="domingo">28</td>
                 <td>29</td>
                 <td>30</td>
-                <td>🌛</td>
-                <td>🌑</td>
-                <td>🌜</td>
-                <td>🌕</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
-        </tbody>
-    </table>
-    <!-- Linha de separação -->
-    <hr/>
- 
-    <!-- Seletor de cor e entrada de dia -->
-    <label for="color">Escolha uma cor:</label>
-    <select id="color" name="color">
-        <option value="LightBlue">Azul</option>
-        <option value="PaleGreen">Verde</option>
-        <option value="LightPink">Rosa</option>
-        <option value="SlateBlue">Roxo</option>
-    </select>
-    <label for="day">Escolha o dia:</label>
-    <input type="number" id="day" name="day" min="1" max="30">
-    <!-- Botão para colorir o dia -->
-    <button onclick="colorirDia()">Colorir Dia</button>
- 
-    <!-- Legenda das cores -->
-    <div class="legenda">
-        <p><span class="azul"></span> Azul para o veículo 1</p>
-        <p><span class="verde"></span> Verde para o veículo 2</p>
-        <p><span class="rosa"></span> Rosa para o veículo 3</p>
-        <p><span class="roxo"></span> Roxo para o veículo 4</p>
+        </body>
     </div>
  
-    <h1>Calendário Interativo</h1>
+    </table>
+ 
+<hr/>
+<label for="color">Escolha uma cor:</label>
+<select id="color" name="color">
+    <option value="LightBlue">Azul</option>
+    <option value="Palegreen">Verde</option>
+    <option value="LightPink">Rosa</option>
+    <option value="SlateBlue">Roxo</option>
+</select>
+<label for="day">Escolha o dia:</label>
+<input type="number" id="day" name="day" min="1" max="30">
+<input type="submit"onclick="colorirDia()">
+ 
+ 
+</div>
+    <div class="legenda">
+        <p><span class ="azul"></span> Veículo 1</p>
+        <p><span class ="verde"></span> Veículo 2</p>
+        <p><span class ="rosa"></span> Veículo 3</p>
+        <p><span class ="roxo"></span> Veículo 4</p>
+     </div>
 </body>
 </html>
- 
-<script>
-    // Função para colorir o dia selecionado com a cor escolhida
-    function colorirDia() {
-        var dia = parseInt(document.getElementById("day").value); // Obtém o valor do dia
-        var color = document.getElementById("color").value; // Obtém a cor selecionada
-        var calendar = document.getElementById("calendar");
-        var td = calendar.querySelector("td:nth-child(" + (dia + 1) + ")"); // Seleciona o td correspondente ao dia (adicionado +1 para corresponder ao índice do dia no calendário)
- 
-        // Verifica se o dia é válido
-        if (isNaN(dia) || dia < 1 || dia > 30) {
-            alert("Dia inválido! Por favor, insira um número de dia válido (entre 1 e 30).");
-            return; // Encerra a execução da função se o dia for inválido
-        }
- 
-        td.style.backgroundColor = color; // Altera o fundo do td para a cor selecionada
-    }
-</script>
+

@@ -1,4 +1,29 @@
 
+.azul {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: blue;
+}
+ 
+.verde {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: green;
+}
+.rosa{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color:pink
+}
+.roxo{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color:purple
+}
 /* Estilo para dias marcados */
 .marked-day {
     background-color: #fce4ec; /* Cor de fundo rosa claro */
@@ -50,4 +75,22 @@
     margin-right: 5px; /* Margem direita */
     border: 1px solid #ccc; /* Borda sólida com cor cinza */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+#calendar th:hover {
+    background-color: #ffb6c1; /* Cor de fundo rosa claro */
+    color: #fff; /* Cor do texto branca */
+}
+.domingo {
+    background-color: #ee4460; /* Cor de fundo rosa claro */
+    color: #000; /* Cor do texto (preto) */
+  }
+  #calendar th,
+.marked-day:hover {
+    transition: background-color 0.3s ease;
+}
+#calendar th,
+.weekend-day {
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Espessura da fonte */
+    letter-spacing: 1px; /* Espaçamento entre letras */
 }
