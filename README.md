@@ -25,6 +25,21 @@ Quer ver o Calendário Interativo em ação? Confira uma demonstração ao vivo 
 🤝 Contribuindo
 Este projeto é alimentado pela comunidade e todas as contribuições são bem-vindas. Se você tem ideias para melhorias, novos recursos ou encontrou algum problema, não hesite em abrir uma issue ou um pull request.
 
-📄 procuzido por
+🌟 Desenvolvimento:
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+HTML5: Para estruturação do conteúdo e criação dos elementos do calendário.
+CSS3: Para estilização do calendário e criação de uma interface intuitiva.
+JavaScript: Para implementação da lógica de interação do usuário e marcação dos dias com as cores dos veículos.
+
+🌈 Como Utilizar:
+Selecione um dia no calendário.
+Escolha a cor correspondente ao veículo que realizará o frete.
+Clique no botão "Agendar" para confirmar a marcação.
+
+📄 Esse projeto foi procuzido por
 luamy alves gama
+
+📂 Link do Repositório:
+
 
