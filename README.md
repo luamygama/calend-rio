@@ -1,10 +1,10 @@
 # calend-rio
 
 **📅 Calendário Interativo**
-Bem-vindo ao Calendário Interativo! Este é um projeto incrível que vai revolucionar a maneira como você organiza seu tempo. Combinando funcionalidade avançada e design elegante, este calendário é a ferramenta perfeita para transformar suas tarefas diárias em uma experiência visualmente cativante.
+Bem-vindo ao Calendário Interativo! Este é um projeto incrível que vai revolucionar a maneira como você organiza seu tempo. Combinando funcionalidade avançada e design elegante, este calendário é a ferramenta perfeita para transformar suas datas de auqe sera marcada seu veiculo na data aberta.
 
-💡 Por que usar o Calendário Interativo?
-Organização Visual: Marque seus eventos, compromissos e prazos com cores vibrantes para uma visão instantânea de sua agenda.
+**💡 Por que usar o Calendário Interativo?**
+Organização Visual: marca o dia em que um determinado veículo fará um frete, essa marcação permite verificar visualmente os dias em que haverão fretes agendados, e conforme o previsto enviara um alert, caso ao contrio sua data sera marcada.
 
 **🚀 Como Usar**
 Abra o Arquivo: Basta abrir o arquivo index.html em seu navegador favorito para acessar o calendário interativo.
@@ -29,9 +29,11 @@ Legenda de Cores: Uma legenda na aplicação permite aos usuários identificar f
 **🌈 Desenvolvimento:**
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-HTML5: Para estruturação do conteúdo e criação dos elementos do calendário.
-CSS3: Para estilização do calendário e criação de uma interface intuitiva.
+HTML5: Para estruturação do conteúdo e criação dos elementos do calendário.  
+CSS3: Para estilização do calendário e criação de uma interface intuitiva.  
 JavaScript: Para implementação da lógica de interação do usuário e marcação dos dias com as cores dos veículos.
+
+
 
 **🌟Como Utilizar:**
 Selecione um dia no calendário.
@@ -44,7 +46,7 @@ Quer ver o Calendário Interativo em ação? Confira uma demonstração ao vivo 
 
 ![calendario](img/calendario.png)
 
-**📄 Esse projeto foi procuzido por**
+**📄 Esse projeto foi produzido por**
 luamy alves gama 
 
 **📂 Link do Repositório:**
