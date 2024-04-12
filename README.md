@@ -37,6 +37,10 @@ Selecione um dia no calendário.
 Escolha a cor correspondente ao veículo que realizará o frete.
 Clique no botão "Agendar" para confirmar a marcação.
 
+demostração do projeto
+
+![calendario](img/calendario.png)
+
 📄 Esse projeto foi procuzido por
 luamy alves gama
 
